@@ -9,6 +9,16 @@ wget https://raw.githubusercontent.com/EdyDevz/vnstatbot/main/crot /usr/bin/ && 
 ```
 
 
+###### EDIT TOKEN
+```
+nano auth
+```
+
+
+###### TESTING TOOLS
+for test tools type `crot` in the terminal
+
+
 ###### COPAS TO SCHEDULED TASKS
 ```
 0 0 * * * crot
