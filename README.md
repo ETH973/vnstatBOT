@@ -5,7 +5,7 @@
 
 ###### DOWNLOAD FILE
 ```
-wget https://raw.githubusercontent.com/EdyDevz/vnstatbot/main/crot && mv /root/crot /usr/bin/ && chmod +x /usr/bin/crot
+wget https://raw.githubusercontent.com/EdyDevz/vnstatmonitor/main/crot && mv /root/crot /usr/bin/ && chmod +x /usr/bin/crot
 ```
 
 
