@@ -1,30 +1,32 @@
-**VNSTAT MONITORING DATA USAGE**
+**VNSTAT - MONITOREO DE USO DE DATOS**
 
 
-###### HOW TO INSTALL
-* [**VIEW ON YOUTUBE**](https://youtu.be/OZBXMmOHPgw)
+###### COMO INSTALAR Y USAR
+* [**VER EN YOUTUBE**](https://youtu.be/OZBXMmOHPgw)
 
-
-
-###### DOWNLOAD FILE
+###### DESCARGA EL ARCHIVO 
 ```
-wget https://raw.githubusercontent.com/EdyDevz/vnstatmonitor/main/crot && mv /root/crot /usr/bin/ && chmod +x /usr/bin/crot
+wget https://raw.githubusercontent.com/ETH973/vnstatBOT/main/crot && mv /root/crot /usr/bin/ && chmod +x /usr/bin/crot
 ```
-
-
-###### EDIT TOKEN
+###### CREA O EDITA TOKEN Y ID TELEGRAM
 ```
 nano auth
 ```
 
+###### PRUEBA DE FUNCIONAMIENTO
+Escriba el comando `crot` en el terminal
 
-###### TESTING TOOLS
-for test tools type `crot` in the terminal
-
-
-###### COPAS TO SCHEDULED TASKS
+###### ESTABLECER HORARIOS
+##### INGRESA AL SIGUIENTE COMANDO EN EL TERMINAL
 ```
-0 0 * * * crot
+crontab -e
 ```
+##### EN UNA NUEVA LINEA O LINEA VACÍA ESCRIBE EL HORARIO DE PREFERENCIA, EJEMPLO: CADA MEDIA NOCHE Y GUARDA CAMBIOS
+```
+0 0 * * * /usr/bin/crot
+```
+##### **GRACIAS POR USAR ESTA HERRAMIENTA!*
+TELEGRAM: [**973ETH**](t.me/ETH973)
 
-**THANKS FOR USING THIS TOOLS**
+#####**CREDITOS: REPOSITORIO ORIGINAL * [**EdyDevz / vnstatmonitor**](https://github.com/EdyDevz/vnstatmonitor).
+
