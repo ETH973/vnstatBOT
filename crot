@@ -66,3 +66,8 @@ bandwidth_message=$(get_daily_bandwidth)
 
 # Enviar mensajes a cuentas personales de Telegram
 send_telegram_message "$CHAT_ID" "$bandwidth_message"
+
+# Recibir mensaje desde bot
+if [[ "$message" == "crot" ]]; then 
+send_telegram_message "$CHAT_ID" "$(get_daily_bandwidth)"; 
+fi
